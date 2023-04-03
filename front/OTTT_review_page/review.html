@@ -1,0 +1,868 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ottt</title>  
+
+    <link rel="stylesheet" href="./css/main.css" >   
+    <script src="./script/jquery-3.6.1.min.js"></script>
+    <script src="./script/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="wrap">
+      <header>
+        <div class="logo">
+          <a href="#">
+            <img src="./images/logo/OTTT.png" alt="로고">
+          </a>
+        </div>
+        <nav class="gnb">
+          <ul>
+            <li>
+              <a href="#">영화&nbsp;&nbsp;</a>
+            </li>
+            <li>
+              <a href="#">드라마&nbsp;</a>
+            </li>
+            <li>
+              <a href="#">예능</a>
+            </li>
+            <li>
+              <a href="#">애니&nbsp;</a>
+            </li>
+            <li>
+              <a href="#">게시판</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="h-icon">
+          <ul>
+            <li>
+              <a href="#">
+                <!-- <img src="./images/icon/search02.png" alt="검색"> -->
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <!-- <img src="./images/icon/user01.png" alt="내 정보"> -->
+              </a>
+            </li>
+          </ul>
+        </div>
+      </header>
+    </div>
+    <section class="sec01">      
+      <div class="banner">
+        <div class="banner-header">
+            <p>
+              어디서 보나요?              
+            </p>
+        </div>
+        <div class="banner-body">
+          <img class="netfilx" src="./images/icon/넷플릭스.png" alt="넷플릭스아이콘">
+          <img class="watcha" src="./images/icon/왓챠.png" alt="왓챠아이콘">
+        </div>
+      </div>      
+      
+      <div class="main-img">
+        <img src="./images/movie/서부 전선 이상 없다.png" alt="서부 전선 이상 없다 이미지">
+      </div>
+
+      <div class="info">
+        <ul>
+          <li class="info-title">
+            <h1>서부 전선 이상 없다.</h1>
+            <h4>Im Westen nichts Neues</h4>
+          </li>
+          <br>
+          <li class="info-detail">
+            <span>2023·</span>
+            <span>미국·</span>
+            <span>전쟁·</span>
+            <span>148분·</span>
+            <span>청불</span>
+          </li>
+          <br>
+          <li class="info-director">
+            <span>감독 :&nbsp;</span>
+            <span>
+              <a href="#">에드워드 버거</a>
+            </span>
+          </li>
+          <li class="info-main_actor">
+            <span>주연 :&nbsp;</span>
+            <span>
+              <a href="#">펠릭스 카머러,&nbsp;</a>
+            </span>
+            <span>
+              <a href="#">알브레히트 슈흐</a>
+            </span>
+          </li>
+          <li class="info-supporting_actor">
+            <span>조연 :&nbsp;</span>
+            <span>
+              <a href="#">데비트 슈트리조,&nbsp;</a>                          
+            </span>            
+            <span>
+              <a href="#">아드리안 그뤼</a>
+            </span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="sec02">
+      <div class="review">
+        <div class="advertisement">
+          <p>광고</p>
+        </div>
+        <p class="review-count">
+          총 7개의 리뷰가 있습니다.
+        </p>
+        <br>
+        <div class="review-box">
+          <div class="review-box-header">
+            <div class="user-icon">
+              <img src="./images/icon/user.png" alt="유저 이미지파일">
+            </div>
+            <div class="user-name">
+              <a href="#">
+                유저 닉네임
+              </a>
+            </div>
+            <ul>
+              <li>
+                <div class="starpoint_wrap">
+                  <div class="starpoint_box">
+                    <label for="starpoint_1" class="label_star" title="0.5"><span class="blind">0.5점</span></label>
+                    <label for="starpoint_2" class="label_star" title="1"><span class="blind">1점</span></label>
+                    <label for="starpoint_3" class="label_star" title="1.5"><span class="blind">1.5점</span></label>
+                    <label for="starpoint_4" class="label_star" title="2"><span class="blind">2점</span></label>
+                    <label for="starpoint_5" class="label_star" title="2.5"><span class="blind">2.5점</span></label>
+                    <label for="starpoint_6" class="label_star" title="3"><span class="blind">3점</span></label>
+                    <label for="starpoint_7" class="label_star" title="3.5"><span class="blind">3.5점</span></label>
+                    <label for="starpoint_8" class="label_star" title="4"><span class="blind">4점</span></label>
+                    <label for="starpoint_9" class="label_star" title="4.5"><span class="blind">4.5점</span></label>
+                    <label for="starpoint_10" class="label_star" title="5"><span class="blind">5점</span></label>
+                    <input type="radio" name="starpoint" id="starpoint_1" class="star_radio">
+                    <input type="radio" name="starpoint" id="starpoint_2" class="star_radio">
+                    <input type="radio" name="starpoint" id="starpoint_3" class="star_radio">
+                    <input type="radio" name="starpoint" id="starpoint_4" class="star_radio">
+                    <input type="radio" name="starpoint" id="starpoint_5" class="star_radio">
+                    <input type="radio" name="starpoint" id="starpoint_6" class="star_radio">
+                    <input type="radio" name="starpoint" id="starpoint_7" class="star_radio">
+                    <input type="radio" name="starpoint" id="starpoint_8" class="star_radio">
+                    <input type="radio" name="starpoint" id="starpoint_9" class="star_radio">
+                    <input type="radio" name="starpoint" id="starpoint_10" class="star_radio">
+                    <span class="starpoint_bg"></span>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="heart">        
+                    <div>
+                      <div class="heart_img"></div>
+                    </div>             
+                </div>
+              </li>
+              <li>
+                <div class="comment">
+                  <a href="#">
+                    <img src="./images/icon/comment.png" alt="아이콘">
+                  </a>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="review-box-body">
+            <p class="review-box-text">"내용 들어갈 자리"</p>
+          </div>
+          <div class="review-box-footer">
+            <div>
+              <ul>
+                <li>
+                  <div class="like">
+                    <img src="./images/icon/좋아요.png" alt="좋아요아이콘">
+                  </div>
+                  <div class="like-count">
+                    <p>
+                      9999개
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <div class="footer-comment">
+                    <img src="./images/icon/댓글.png" alt="댓글아이콘">
+                  </div>
+                  <div class="comment-count">
+                    <p>
+                      9999개
+                    </p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <ul>
+                <li>
+                  <div class="report">
+                    <a href="#">
+                      <img src="./images/icon/신고하기.png" alt="신고">
+                      <p>신고</p>
+                    </a>
+                  </div>
+                </li>
+                <li>
+                  <div class="add-comment">
+                    <a href="#">
+                      <img src="./images/icon/댓글.png" alt="댓글달기">
+                      <p>댓글달기</p>
+                    </a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+          <br>
+            <div class="review-box">
+              <div class="review-box-header">
+                <div class="user-icon">
+                  <img src="./images/icon/user.png" alt="유저 이미지파일">
+                </div>
+                <div class="user-name">
+                  <a href="#">
+                    유저 닉네임
+                  </a>
+                </div>
+                <ul>
+                  <li>
+                    <div class="starpoint_wrap">
+                      <div class="starpoint_box">
+                        <label for="starpoint_11" class="label_star" title="0.5"><span class="blind">0.5점</span></label>
+                        <label for="starpoint_12" class="label_star" title="1"><span class="blind">1점</span></label>
+                        <label for="starpoint_13" class="label_star" title="1.5"><span class="blind">1.5점</span></label>
+                        <label for="starpoint_14" class="label_star" title="2"><span class="blind">2점</span></label>
+                        <label for="starpoint_15" class="label_star" title="2.5"><span class="blind">2.5점</span></label>
+                        <label for="starpoint_16" class="label_star" title="3"><span class="blind">3점</span></label>
+                        <label for="starpoint_17" class="label_star" title="3.5"><span class="blind">3.5점</span></label>
+                        <label for="starpoint_18" class="label_star" title="4"><span class="blind">4점</span></label>
+                        <label for="starpoint_19" class="label_star" title="4.5"><span class="blind">4.5점</span></label>
+                        <label for="starpoint_20" class="label_star" title="5"><span class="blind">5점</span></label>
+                        <input type="radio" name="starpoint" id="starpoint_11" class="star_radio">
+                        <input type="radio" name="starpoint" id="starpoint_12" class="star_radio">
+                        <input type="radio" name="starpoint" id="starpoint_13" class="star_radio">
+                        <input type="radio" name="starpoint" id="starpoint_14" class="star_radio">
+                        <input type="radio" name="starpoint" id="starpoint_15" class="star_radio">
+                        <input type="radio" name="starpoint" id="starpoint_16" class="star_radio">
+                        <input type="radio" name="starpoint" id="starpoint_17" class="star_radio">
+                        <input type="radio" name="starpoint" id="starpoint_18" class="star_radio">
+                        <input type="radio" name="starpoint" id="starpoint_19" class="star_radio">
+                        <input type="radio" name="starpoint" id="starpoint_20" class="star_radio">
+                        <span class="starpoint_bg"></span>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="heart">        
+                        <div>
+                          <div class="heart_img"></div>
+                        </div>             
+                    </div>
+                  </li>
+                  <li>
+                    <div class="comment">
+                      <a href="#">
+                        <img src="./images/icon/comment.png" alt="아이콘">
+                      </a>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="review-box-body">
+                <p class="review-box-text">"내용 들어갈 자리"</p>
+              </div>
+              <div class="review-box-footer">
+                <div>
+                  <ul>
+                    <li>
+                      <div class="like">
+                        <img src="./images/icon/좋아요.png" alt="좋아요아이콘">
+                      </div>
+                      <div class="like-count">
+                        <p>
+                          9999개
+                        </p>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="footer-comment">
+                        <img src="./images/icon/댓글.png" alt="댓글아이콘">
+                      </div>
+                      <div class="comment-count">
+                        <p>
+                          9999개
+                        </p>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                <div>
+                  <ul>
+                    <li>
+                      <div class="report">
+                        <a href="#">
+                          <img src="./images/icon/신고하기.png" alt="신고">
+                          <p>신고</p>
+                        </a>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="add-comment">
+                        <a href="#">
+                          <img src="./images/icon/댓글.png" alt="댓글달기">
+                          <p>댓글달기</p>
+                        </a>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div> 
+          </div>         
+          <br>
+          <div class="review-box">
+            <div class="review-box-header">
+              <div class="user-icon">
+                <img src="./images/icon/user.png" alt="유저 이미지파일">
+              </div>
+              <div class="user-name">
+                <a href="#">
+                  유저 닉네임
+                </a>
+              </div>
+              <ul>
+                <li>
+                  <div class="starpoint_wrap">
+                    <div class="starpoint_box">
+                      <label for="starpoint_21" class="label_star" title="0.5"><span class="blind">0.5점</span></label>
+                      <label for="starpoint_22" class="label_star" title="1"><span class="blind">1점</span></label>
+                      <label for="starpoint_23" class="label_star" title="1.5"><span class="blind">1.5점</span></label>
+                      <label for="starpoint_24" class="label_star" title="2"><span class="blind">2점</span></label>
+                      <label for="starpoint_25" class="label_star" title="2.5"><span class="blind">2.5점</span></label>
+                      <label for="starpoint_26" class="label_star" title="3"><span class="blind">3점</span></label>
+                      <label for="starpoint_27" class="label_star" title="3.5"><span class="blind">3.5점</span></label>
+                      <label for="starpoint_28" class="label_star" title="4"><span class="blind">4점</span></label>
+                      <label for="starpoint_29" class="label_star" title="4.5"><span class="blind">4.5점</span></label>
+                      <label for="starpoint_30" class="label_star" title="5"><span class="blind">5점</span></label>
+                      <input type="radio" name="starpoint" id="starpoint_21" class="star_radio">
+                      <input type="radio" name="starpoint" id="starpoint_22" class="star_radio">
+                      <input type="radio" name="starpoint" id="starpoint_23" class="star_radio">
+                      <input type="radio" name="starpoint" id="starpoint_24" class="star_radio">
+                      <input type="radio" name="starpoint" id="starpoint_25" class="star_radio">
+                      <input type="radio" name="starpoint" id="starpoint_26" class="star_radio">
+                      <input type="radio" name="starpoint" id="starpoint_27" class="star_radio">
+                      <input type="radio" name="starpoint" id="starpoint_28" class="star_radio">
+                      <input type="radio" name="starpoint" id="starpoint_29" class="star_radio">
+                      <input type="radio" name="starpoint" id="starpoint_30" class="star_radio">
+                      <span class="starpoint_bg"></span>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="heart">        
+                      <div>
+                        <div class="heart_img"></div>
+                      </div>             
+                  </div>
+                </li>
+                <li>
+                  <div class="comment">
+                    <a href="#">
+                      <img src="./images/icon/comment.png" alt="아이콘">
+                    </a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="review-box-body">
+              <p class="review-box-text">"내용 들어갈 자리"</p>
+            </div>
+            <div class="review-box-footer">
+              <div>
+                <ul>
+                  <li>
+                    <div class="like">
+                      <img src="./images/icon/좋아요.png" alt="좋아요아이콘">
+                    </div>
+                    <div class="like-count">
+                      <p>
+                        9999개
+                      </p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="footer-comment">
+                      <img src="./images/icon/댓글.png" alt="댓글아이콘">
+                    </div>
+                    <div class="comment-count">
+                      <p>
+                        9999개
+                      </p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <ul>
+                  <li>
+                    <div class="report">
+                      <a href="#">
+                        <img src="./images/icon/신고하기.png" alt="신고">
+                        <p>신고</p>
+                      </a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="add-comment">
+                      <a href="#">
+                        <img src="./images/icon/댓글.png" alt="댓글달기">
+                        <p>댓글달기</p>
+                      </a>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <br>
+          <div class="review-box">
+            <div class="review-box-header">
+              <div class="user-icon">
+                <img src="./images/icon/user.png" alt="유저 이미지파일">
+              </div>
+              <div class="user-name">
+                <a href="#">
+                  유저 닉네임
+                </a>
+              </div>
+              <ul>
+                <li>
+                  <div class="starpoint_wrap">
+                    <div class="starpoint_box">
+                      <label for="starpoint_31" class="label_star" title="0.5"><span class="blind">0.5점</span></label>
+                      <label for="starpoint_32" class="label_star" title="1"><span class="blind">1점</span></label>
+                      <label for="starpoint_33" class="label_star" title="1.5"><span class="blind">1.5점</span></label>
+                      <label for="starpoint_34" class="label_star" title="2"><span class="blind">2점</span></label>
+                      <label for="starpoint_35" class="label_star" title="2.5"><span class="blind">2.5점</span></label>
+                      <label for="starpoint_36" class="label_star" title="3"><span class="blind">3점</span></label>
+                      <label for="starpoint_37" class="label_star" title="3.5"><span class="blind">3.5점</span></label>
+                      <label for="starpoint_38" class="label_star" title="4"><span class="blind">4점</span></label>
+                      <label for="starpoint_39" class="label_star" title="4.5"><span class="blind">4.5점</span></label>
+                      <label for="starpoint_40" class="label_star" title="5"><span class="blind">5점</span></label>
+                      <input type="radio" name="starpoint" id="starpoint_31" class="star_radio">
+                      <input type="radio" name="starpoint" id="starpoint_32" class="star_radio">
+                      <input type="radio" name="starpoint" id="starpoint_33" class="star_radio">
+                      <input type="radio" name="starpoint" id="starpoint_34" class="star_radio">
+                      <input type="radio" name="starpoint" id="starpoint_35" class="star_radio">
+                      <input type="radio" name="starpoint" id="starpoint_36" class="star_radio">
+                      <input type="radio" name="starpoint" id="starpoint_37" class="star_radio">
+                      <input type="radio" name="starpoint" id="starpoint_38" class="star_radio">
+                      <input type="radio" name="starpoint" id="starpoint_39" class="star_radio">
+                      <input type="radio" name="starpoint" id="starpoint_40" class="star_radio">
+                      <span class="starpoint_bg"></span>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="heart">        
+                      <div>
+                        <div class="heart_img"></div>
+                      </div>             
+                  </div>
+                </li>
+                <li>
+                  <div class="comment">
+                    <a href="#">
+                      <img src="./images/icon/comment.png" alt="아이콘">
+                    </a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="review-box-body">
+              <p class="review-box-text">"내용 들어갈 자리"</p>
+            </div>
+            <div class="review-box-footer">
+              <div>
+                <ul>
+                  <li>
+                    <div class="like">
+                      <img src="./images/icon/좋아요.png" alt="좋아요아이콘">
+                    </div>
+                    <div class="like-count">
+                      <p>
+                        9999개
+                      </p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="footer-comment">
+                      <img src="./images/icon/댓글.png" alt="댓글아이콘">
+                    </div>
+                    <div class="comment-count">
+                      <p>
+                        9999개
+                      </p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <ul>
+                  <li>
+                    <div class="report">
+                      <a href="#">
+                        <img src="./images/icon/신고하기.png" alt="신고">
+                        <p>신고</p>
+                      </a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="add-comment">
+                      <a href="#">
+                        <img src="./images/icon/댓글.png" alt="댓글달기">
+                        <p>댓글달기</p>
+                      </a>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <br>
+          <div class="review-box">
+            <div class="review-box-header">
+              <div class="user-icon">
+                <img src="./images/icon/user.png" alt="유저 이미지파일">
+              </div>
+              <div class="user-name">
+                <a href="#">
+                  유저 닉네임
+                </a>
+              </div>
+              <ul>
+                <li>
+                  <div class="starpoint_wrap">
+                    <div class="starpoint_box">
+                      <label for="starpoint_41" class="label_star" title="0.5"><span class="blind">0.5점</span></label>
+                      <label for="starpoint_42" class="label_star" title="1"><span class="blind">1점</span></label>
+                      <label for="starpoint_43" class="label_star" title="1.5"><span class="blind">1.5점</span></label>
+                      <label for="starpoint_44" class="label_star" title="2"><span class="blind">2점</span></label>
+                      <label for="starpoint_45" class="label_star" title="2.5"><span class="blind">2.5점</span></label>
+                      <label for="starpoint_46" class="label_star" title="3"><span class="blind">3점</span></label>
+                      <label for="starpoint_47" class="label_star" title="3.5"><span class="blind">3.5점</span></label>
+                      <label for="starpoint_48" class="label_star" title="4"><span class="blind">4점</span></label>
+                      <label for="starpoint_49" class="label_star" title="4.5"><span class="blind">4.5점</span></label>
+                      <label for="starpoint_50" class="label_star" title="5"><span class="blind">5점</span></label>
+                      <input type="radio" name="starpoint" id="starpoint_41" class="star_radio">
+                      <input type="radio" name="starpoint" id="starpoint_42" class="star_radio">
+                      <input type="radio" name="starpoint" id="starpoint_43" class="star_radio">
+                      <input type="radio" name="starpoint" id="starpoint_44" class="star_radio">
+                      <input type="radio" name="starpoint" id="starpoint_45" class="star_radio">
+                      <input type="radio" name="starpoint" id="starpoint_46" class="star_radio">
+                      <input type="radio" name="starpoint" id="starpoint_47" class="star_radio">
+                      <input type="radio" name="starpoint" id="starpoint_48" class="star_radio">
+                      <input type="radio" name="starpoint" id="starpoint_49" class="star_radio">
+                      <input type="radio" name="starpoint" id="starpoint_50" class="star_radio">
+                      <span class="starpoint_bg"></span>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="heart">        
+                      <div>
+                        <div class="heart_img"></div>
+                      </div>             
+                  </div>
+                </li>
+                <li>
+                  <div class="comment">
+                    <a href="#">
+                      <img src="./images/icon/comment.png" alt="아이콘">
+                    </a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="review-box-body">
+              <p class="review-box-text">"내용 들어갈 자리"</p>
+            </div>
+            <div class="review-box-footer">
+              <div>
+                <ul>
+                  <li>
+                    <div class="like">
+                      <img src="./images/icon/좋아요.png" alt="좋아요아이콘">
+                    </div>
+                    <div class="like-count">
+                      <p>
+                        9999개
+                      </p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="footer-comment">
+                      <img src="./images/icon/댓글.png" alt="댓글아이콘">
+                    </div>
+                    <div class="comment-count">
+                      <p>
+                        9999개
+                      </p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <ul>
+                  <li>
+                    <div class="report">
+                      <a href="#">
+                        <img src="./images/icon/신고하기.png" alt="신고">
+                        <p>신고</p>
+                      </a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="add-comment">
+                      <a href="#">
+                        <img src="./images/icon/댓글.png" alt="댓글달기">
+                        <p>댓글달기</p>
+                      </a>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <br>
+          <div class="review-box">
+            <div class="review-box-header">
+              <div class="user-icon">
+                <img src="./images/icon/user.png" alt="유저 이미지파일">
+              </div>
+              <div class="user-name">
+                <a href="#">
+                  유저 닉네임
+                </a>
+              </div>
+              <ul>
+                <li>
+                  <div class="starpoint_wrap">
+                    <div class="starpoint_box">
+                      <label for="starpoint_51" class="label_star" title="0.5"><span class="blind">0.5점</span></label>
+                      <label for="starpoint_52" class="label_star" title="1"><span class="blind">1점</span></label>
+                      <label for="starpoint_53" class="label_star" title="1.5"><span class="blind">1.5점</span></label>
+                      <label for="starpoint_54" class="label_star" title="2"><span class="blind">2점</span></label>
+                      <label for="starpoint_55" class="label_star" title="2.5"><span class="blind">2.5점</span></label>
+                      <label for="starpoint_56" class="label_star" title="3"><span class="blind">3점</span></label>
+                      <label for="starpoint_57" class="label_star" title="3.5"><span class="blind">3.5점</span></label>
+                      <label for="starpoint_58" class="label_star" title="4"><span class="blind">4점</span></label>
+                      <label for="starpoint_59" class="label_star" title="4.5"><span class="blind">4.5점</span></label>
+                      <label for="starpoint_60" class="label_star" title="5"><span class="blind">5점</span></label>
+                      <input type="radio" name="starpoint" id="starpoint_51" class="star_radio">
+                      <input type="radio" name="starpoint" id="starpoint_52" class="star_radio">
+                      <input type="radio" name="starpoint" id="starpoint_53" class="star_radio">
+                      <input type="radio" name="starpoint" id="starpoint_54" class="star_radio">
+                      <input type="radio" name="starpoint" id="starpoint_55" class="star_radio">
+                      <input type="radio" name="starpoint" id="starpoint_56" class="star_radio">
+                      <input type="radio" name="starpoint" id="starpoint_57" class="star_radio">
+                      <input type="radio" name="starpoint" id="starpoint_58" class="star_radio">
+                      <input type="radio" name="starpoint" id="starpoint_59" class="star_radio">
+                      <input type="radio" name="starpoint" id="starpoint_60" class="star_radio">
+                      <span class="starpoint_bg"></span>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="heart">        
+                      <div>
+                        <div class="heart_img"></div>
+                      </div>             
+                  </div>
+                </li>
+                <li>
+                  <div class="comment">
+                    <a href="#">
+                      <img src="./images/icon/comment.png" alt="아이콘">
+                    </a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="review-box-body">
+              <p class="review-box-text">"내용 들어갈 자리"</p>
+            </div>
+            <div class="review-box-footer">
+              <div>
+                <ul>
+                  <li>
+                    <div class="like">
+                      <img src="./images/icon/좋아요.png" alt="좋아요아이콘">
+                    </div>
+                    <div class="like-count">
+                      <p>
+                        9999개
+                      </p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="footer-comment">
+                      <img src="./images/icon/댓글.png" alt="댓글아이콘">
+                    </div>
+                    <div class="comment-count">
+                      <p>
+                        9999개
+                      </p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <ul>
+                  <li>
+                    <div class="report">
+                      <a href="#">
+                        <img src="./images/icon/신고하기.png" alt="신고">
+                        <p>신고</p>
+                      </a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="add-comment">
+                      <a href="#">
+                        <img src="./images/icon/댓글.png" alt="댓글달기">
+                        <p>댓글달기</p>
+                      </a>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <br>
+          <div class="review-box">
+            <div class="review-box-header">
+              <div class="user-icon">
+                <img src="./images/icon/user.png" alt="유저 이미지파일">
+              </div>
+              <div class="user-name">
+                <a href="#">
+                  유저 닉네임
+                </a>
+              </div>
+              <ul>
+                <li>
+                  <div class="starpoint_wrap">
+                    <div class="starpoint_box">
+                      <label for="starpoint_61" class="label_star" title="0.5"><span class="blind">0.5점</span></label>
+                      <label for="starpoint_62" class="label_star" title="1"><span class="blind">1점</span></label>
+                      <label for="starpoint_63" class="label_star" title="1.5"><span class="blind">1.5점</span></label>
+                      <label for="starpoint_64" class="label_star" title="2"><span class="blind">2점</span></label>
+                      <label for="starpoint_65" class="label_star" title="2.5"><span class="blind">2.5점</span></label>
+                      <label for="starpoint_66" class="label_star" title="3"><span class="blind">3점</span></label>
+                      <label for="starpoint_67" class="label_star" title="3.5"><span class="blind">3.5점</span></label>
+                      <label for="starpoint_68" class="label_star" title="4"><span class="blind">4점</span></label>
+                      <label for="starpoint_69" class="label_star" title="4.5"><span class="blind">4.5점</span></label>
+                      <label for="starpoint_70" class="label_star" title="5"><span class="blind">5점</span></label>
+                      <input type="radio" name="starpoint" id="starpoint_61" class="star_radio">
+                      <input type="radio" name="starpoint" id="starpoint_62" class="star_radio">
+                      <input type="radio" name="starpoint" id="starpoint_63" class="star_radio">
+                      <input type="radio" name="starpoint" id="starpoint_64" class="star_radio">
+                      <input type="radio" name="starpoint" id="starpoint_65" class="star_radio">
+                      <input type="radio" name="starpoint" id="starpoint_66" class="star_radio">
+                      <input type="radio" name="starpoint" id="starpoint_67" class="star_radio">
+                      <input type="radio" name="starpoint" id="starpoint_68" class="star_radio">
+                      <input type="radio" name="starpoint" id="starpoint_69" class="star_radio">
+                      <input type="radio" name="starpoint" id="starpoint_70" class="star_radio">
+                      <span class="starpoint_bg"></span>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="heart">        
+                      <div>
+                        <div class="heart_img"></div>
+                      </div>             
+                  </div>
+                </li>
+                <li>
+                  <div class="comment">
+                    <a href="#">
+                      <img src="./images/icon/comment.png" alt="아이콘">
+                    </a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="review-box-body">
+              <p class="review-box-text">"내용 들어갈 자리"</p>
+            </div>
+            <div class="review-box-footer">
+              <div>
+                <ul>
+                  <li>
+                    <div class="like">
+                      <img src="./images/icon/좋아요.png" alt="좋아요아이콘">
+                    </div>
+                    <div class="like-count">
+                      <p>
+                        9999개
+                      </p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="footer-comment">
+                      <img src="./images/icon/댓글.png" alt="댓글아이콘">
+                    </div>
+                    <div class="comment-count">
+                      <p>
+                        9999개
+                      </p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <ul>
+                  <li>
+                    <div class="report">
+                      <a href="#">
+                        <img src="./images/icon/신고하기.png" alt="신고">
+                        <p>신고</p>
+                      </a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="add-comment">
+                      <a href="#">
+                        <img src="./images/icon/댓글.png" alt="댓글달기">
+                        <p>댓글달기</p>
+                      </a>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+      </div>
+    </section>
+
+    <footer>
+
+    </footer>    
+        
+    </div>
+  </body>
+</html>
