@@ -14,13 +14,29 @@ a{
     display: block;
 }
 
+a:hover {
+    text-decoration: none;
+    color: #33ff33;
+    display: block;
+}
+
 ul,li,ol{
     list-style: none;
 }
 
 body{
+    margin: 0;
+    font-family: var(--bs-body-font-family);
+    font-size: var(--bs-body-font-size);
+    font-weight: var(--bs-body-font-weight);
+    line-height: var(--bs-body-line-height);
+    /* color: var(--bs-body-color); */
+    text-align: var(--bs-body-text-align);
+    /* background-color: var(--bs-body-bg); */
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
     background-color: #202020;
-    color: #fff;   
+    color: #fff; 
 }
 
 .wrap{
@@ -34,10 +50,11 @@ body{
 header{
     width: 1200px;
     height: 130px;
-
+    position: sticky;
     margin: 0 auto;
     position: relative;
     display: flex;
+    border-bottom: 1px solid #33ff33;
 }
 
 .logo{
@@ -69,7 +86,7 @@ header{
     font-weight: 600;
 }
 
-.gnb > ul > li:hover{
+.gnb > ul > li > a:hover{
     color: #33ff33;
 }
 
@@ -168,7 +185,22 @@ header{
 
 .banner-body{
     background-color: #202020;
+    position: relative;
     height: 12.3rem;
+}
+
+.watcha {
+    position:absolute;
+    left: 10px;
+    top: 10px;
+    margin-right: 10px;
+}
+
+.netfilx {
+    position:absolute;
+    left: 80px;
+    top: 10px;
+    margin-left: 30px;
 }
 
 .banner-body > img {
@@ -297,16 +329,17 @@ header{
 
 .star-count{
     font-size: x-large;
-    color: yellowgreen;
+    color: #00E883;
     display: flex;
     position: absolute;
     right: 170px;
-    top: 6px;
+    top: 10px;
 }
 
 .star-count > p {
     position: absolute;
-    left: 40px;
+    left:114px;
+    bottom: -16px;
 }
 
 .heart{   
